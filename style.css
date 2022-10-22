@@ -1,1 +1,39 @@
-
+.title{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    border: 1px solid black;
+    height: 500px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.output{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.lastOutput{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.buttons{
+    border: 1px solid black;
+    height: 100px;
+    width: 142px;
+    text-align: center;
+    
+}
+.section1{
+    display: flex;
+}
+.equasion{
+    font-size: 30px;
+}
+.result{
+    font-size: 35px;
+}
