@@ -42,6 +42,8 @@ body{
 /*buttons*/
 button {
   border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
 }
 .buttons {
   border: 1px solid black;
