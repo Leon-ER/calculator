@@ -1,76 +1,86 @@
-body{
-    background-color: aliceblue;
+body {
+  background-color: #2d2d30;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-/*Header*/
+
+/* Header */
 .title {
   text-align: center;
-  font-style: italic;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 2.5em; /* Increased font size */
 }
-/*Sections and display*/
+
 .container {
-  border: 10px solid black;
-  border-radius: 8px;
-  height: 550px;
-  margin-left: 35%;
-  margin-right: 35%;
+  border: none;
+  border-radius: 12px;
+  max-width: 400px; /* Increased max-width */
+  margin: auto;
+  padding: 20px;
+  background-color: #1a1a1d;
 }
-.output {
-  height: 50px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  border-bottom: 10px solid black;
-}
+
+.output,
 .lastOutput {
-  height: 50px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  background-color: #1a1a1d;
+  color: #fff;
+  font-size: 2em; /* Increased font size */
+  padding: 20px; /* Increased padding */
+  border-bottom: 1px solid #444;
 }
-.section1 {
-  display: flex;
-  gap: 10px;
-  margin: 10px;
+
+.output {
+  text-align: right;
 }
-.equasion {
-  font-size: 30px;
+
+.lastOutput {
+  text-align: right;
+  font-size: 1.5em; /* Increased font size */
+  color: #888;
 }
-.result {
-  font-size: 35px;
-}
-/*buttons*/
+
+/* Buttons */
 button {
+  border: none;
   border-radius: 10px;
-  font-size: 30px;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em; /* Increased font size */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px;
+  padding: 20px; /* Increased padding */
+  color: #fff;
 }
+
 .buttons {
-  border: 1px solid black;
-  height: 100px;
-  width: 142px;
-  text-align: center;
+  background-color: #4b4b4b;
 }
+
 .buttons2 {
-  border: 1px solid black;
-  background-color: rgb(209, 205, 200);
-  height: 100px;
-  width: 142px;
-  text-align: center;
+  background-color: #f39c12;
 }
+
 .operators {
-  border: 1px solid black;
-  background-color: rgb(208, 214, 219);
-  height: 100px;
-  width: 142px;
-  text-align: center;
+  background-color: #2d89ef;
 }
-/*footer*/
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+
 .info p a {
-  color: rgb(27, 85, 133);
+  color: #1a73e8;
   text-decoration: none;
 }
-footer {
-  margin-top: 100px;
-  text-align: center;
+
+.row {
+  display: flex;
+  justify-content: space-between;
 }

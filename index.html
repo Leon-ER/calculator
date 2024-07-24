@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Calculator</title>
   </head>
@@ -19,38 +23,43 @@
         <div class="output">
           <div class="result"></div>
         </div>
-        <div class="section1">
-          <button class="buttons" data-value="7">7</button>
-          <button class="buttons" data-value="8">8</button>
-          <button class="buttons" data-value="9">9</button>
-          <button class="operators" data-value="/">/</button>
+        <div class="row">
+          <button class="col buttons" data-value="7">7</button>
+          <button class="col buttons" data-value="8">8</button>
+          <button class="col buttons" data-value="9">9</button>
+          <button class="col operators" data-value="/">/</button>
         </div>
-        <div class="section1">
-          <button class="buttons" data-value="4">4</button>
-          <button class="buttons" data-value="5">5</button>
-          <button class="buttons" data-value="6">6</button>
-          <button class="operators" data-value="*">*</button>
+        <div class="row">
+          <button class="col buttons" data-value="4">4</button>
+          <button class="col buttons" data-value="5">5</button>
+          <button class="col buttons" data-value="6">6</button>
+          <button class="col operators" data-value="*">*</button>
         </div>
-        <div class="section1">
-          <button class="buttons" data-value="1">1</button>
-          <button class="buttons" data-value="2">2</button>
-          <button class="buttons" data-value="3">3</button>
-          <button class="operators" data-value="-">-</button>
+        <div class="row">
+          <button class="col buttons" data-value="1">1</button>
+          <button class="col buttons" data-value="2">2</button>
+          <button class="col buttons" data-value="3">3</button>
+          <button class="col operators" data-value="-">-</button>
         </div>
-        <div class="section1">
-          <button class="buttons" data-value="0">0</button>
-          <button class="operators" data-value="+">+</button>
-          <button class="buttons2" onclick="deleteText()">CLEAR</button>
-          <button class="buttons2" onclick="calc()">=</button>
+        <div class="row">
+          <button class="col buttons" data-value="0">0</button>
+          <button class="col operators" data-value="+">+</button>
+          <button class="col buttons2" onclick="deleteText()">CLEAR</button>
+          <button class="col buttons2" onclick="calc()">=</button>
         </div>
       </div>
     </section>
     <footer>
       <div class="info">
-          <p>Made by <a href="https://github.com/Leon-ER" target="_blank">Leon</a></p>
-          <p>Following the OTP</p>
+        <p>
+          Made by
+          <a href="https://github.com/Leon-ER" target="_blank">Leon</a>
+        </p>
       </div>
-  </footer>
+    </footer>
+    <script src="javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
-  <script src="javascript.js"></script>
 </html>
